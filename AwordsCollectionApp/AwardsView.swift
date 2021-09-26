@@ -12,7 +12,7 @@ struct AwardsView: View {
     var body: some View {
         NavigationView {
             VStack {
-                ScrollView {
+                ScrollView(showsIndicators: false) {
                     ShipAnimation(width: 250, height: 250)
                     GradientRectangles(width: 250, height: 250)
                     PathView(width: 250, height: 250)

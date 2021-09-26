@@ -25,7 +25,7 @@ struct MainView: View {
             Spacer()
             if showAward {
                 ShipAnimation(width: 250, height: 250)
-                    .transition(.transition)
+                    .transition(.shipAnimationViewTransition)
             }
             
             Spacer()
@@ -42,8 +42,10 @@ struct MainView: View {
 }
 
 extension AnyTransition {
-    static var transition: AnyTransition {
-        let insertion = AnyTransition.move(edge: .top).combined(with: .scale)
+    static var shipAnimationViewTransition: AnyTransition {
+        let insertion = AnyTransition.move(edge: .top).combined(with: .scale).animation(Animation.spring(response: 0.5,
+                                                                                                         dampingFraction: 0.5,
+                                                                                                         blendDuration: 0.9))
         
         let removal = AnyTransition.scale.combined(with: .opacity)
         
