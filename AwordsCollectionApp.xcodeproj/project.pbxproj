@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A592499127037E20001FE42F /* HypocycloidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592498D27037E20001FE42F /* HypocycloidView.swift */; };
+		A592499227037E20001FE42F /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592498E27037E20001FE42F /* HorizontalGridView.swift */; };
+		A592499327037E20001FE42F /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592498F27037E20001FE42F /* VerticalGridView.swift */; };
+		A592499427037E20001FE42F /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A592499027037E20001FE42F /* CustomGridView.swift */; };
 		A59731E32700FA81007CD4E6 /* Waves.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59731E22700FA81007CD4E6 /* Waves.swift */; };
 		A59731E7270103BA007CD4E6 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59731E6270103BA007CD4E6 /* Ship.swift */; };
 		A59731EA270103F2007CD4E6 /* ShipAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59731E9270103F2007CD4E6 /* ShipAnimation.swift */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A592498D27037E20001FE42F /* HypocycloidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HypocycloidView.swift; sourceTree = "<group>"; };
+		A592498E27037E20001FE42F /* HorizontalGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
+		A592498F27037E20001FE42F /* VerticalGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
+		A592499027037E20001FE42F /* CustomGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
 		A59731E22700FA81007CD4E6 /* Waves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waves.swift; sourceTree = "<group>"; };
 		A59731E6270103BA007CD4E6 /* Ship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
 		A59731E9270103F2007CD4E6 /* ShipAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipAnimation.swift; sourceTree = "<group>"; };
@@ -84,6 +92,10 @@
 				A80551E424DB161E00575B7A /* TabViews.swift */,
 				A80551D224DB159D00575B7A /* MainView.swift */,
 				A80551E224DB15FB00575B7A /* AwardsView.swift */,
+				A592499027037E20001FE42F /* CustomGridView.swift */,
+				A592498E27037E20001FE42F /* HorizontalGridView.swift */,
+				A592498D27037E20001FE42F /* HypocycloidView.swift */,
+				A592498F27037E20001FE42F /* VerticalGridView.swift */,
 				A59731E12700FA16007CD4E6 /* ShipAnimationView */,
 				A80551E624DB170A00575B7A /* GradientRectangles.swift */,
 				A80551E824DB173900575B7A /* PathView.swift */,
@@ -180,10 +192,14 @@
 				A808B14C254EAB200043E285 /* AwordsCollectionApp.swift in Sources */,
 				A80551E324DB15FB00575B7A /* AwardsView.swift in Sources */,
 				A59731E7270103BA007CD4E6 /* Ship.swift in Sources */,
+				A592499127037E20001FE42F /* HypocycloidView.swift in Sources */,
 				A59731E32700FA81007CD4E6 /* Waves.swift in Sources */,
 				A80551D324DB159D00575B7A /* MainView.swift in Sources */,
+				A592499327037E20001FE42F /* VerticalGridView.swift in Sources */,
 				A80551EB24DB175600575B7A /* CurvesView.swift in Sources */,
 				A59731EA270103F2007CD4E6 /* ShipAnimation.swift in Sources */,
+				A592499427037E20001FE42F /* CustomGridView.swift in Sources */,
+				A592499227037E20001FE42F /* HorizontalGridView.swift in Sources */,
 				A80551E724DB170A00575B7A /* GradientRectangles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
